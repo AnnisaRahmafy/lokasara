@@ -147,7 +147,7 @@
          <a href="https://x.com/"> <i class="fab fa-twitter"></i> twitter </a>
       </div>
    </div>
-   <div class="credit"> designed by <span>mr. ardika arshal</span> | all rights reserved! </div>
+   <div class="credit"> designed by <span>LOKASARA TEAM</span> | all rights reserved! </div>
 </section>
 
 <!-- footer section ends -->
