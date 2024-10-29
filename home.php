@@ -26,7 +26,7 @@
 <body>
 <!-- header section starts  -->
 <section class="header">
-   <a href="home.php" class="logo"><img src="images/logo.jpg"></a>
+   <a href="home.php" class="logo"><img src="images/lokasara.jpg"></a>
    <nav class="navbar">
       <a href="home.php" class="active">home</a>
       <a href="about.php">about</a>
@@ -210,20 +210,20 @@
       </div>
       <div class="box">
          <h3>contact info</h3>
-         <a href="#"> <i class="fas fa-phone"></i> +62-812-7275-3822 </a>
-         <a href="#"> <i class="fas fa-phone"></i> +62-821-2596-5695 </a>
-         <a href="#"> <i class="fas fa-envelope"></i> ardika@gmail.com </a>
-         <a href="#"> <i class="fas fa-map"></i> Purwokerto, Indonesia - 53417  </a>
+         <a href="#"> <i class="fas fa-phone"></i> +62-822-8134-8982</a>
+         <a href="#"> <i class="fas fa-phone"></i> +62-822-8134-8982 </a>
+         <a href="#"> <i class="fas fa-envelope"></i> franssiussembiring1607@gmail.com </a>
+         <a href="#"> <i class="fas fa-map"></i> Purwokerto, Indonesia - 53127  </a>
       </div>
       <div class="box">
          <h3>follow us</h3>
-         <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
-         <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
-         <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
-         <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+         <a href="https://www.linkedin.com/"> <i class="fab fa-linkedin"></i> linkedin </a>
+         <a href="https://www.facebook.com/"> <i class="fab fa-facebook-f"></i> facebook </a>
+         <a href="https://www.instagram.com/"> <i class="fab fa-instagram"></i> instagram </a>
+         <a href="https://x.com/"> <i class="fab fa-twitter"></i> twitter </a>
       </div>
    </div>
-   <div class="credit"> designed by <span>mr. inra saragih</span> | all rights reserved! </div>
+   <div class="credit"> designed by <span>mr. ardika arshal</span> | all rights reserved! </div>
 </section>
 <!-- footer section ends -->
 <!-- swiper js link  -->
