@@ -108,6 +108,45 @@
             <input type="file" accept="image/*" name="paymentProof">
          </div>
       </div>
+      <script>
+        var orderCount = 0;
+
+        document.getElementById('orderForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            showOrderSummary();
+        });
+
+        function showOrderSummary() {
+            var hospital = document.getElementById('hospital').value;
+            var productName = document.getElementById('productName').value;
+            var quantity = document.getElementById('quantity').value;
+            var customerName = document.getElementById('customerName').value;
+            var email = document.getElementById('email').value;
+            var phone = document.getElementById('phone').value;
+
+            orderCount++;
+            var orderNumber = 'A00' + orderCount;
+
+            document.getElementById('orderNumber').innerText = orderNumber;
+            document.getElementById('summaryHospital').innerText = hospital;
+            document.getElementById('summaryProductName').innerText = productName;
+            document.getElementById('summaryQuantity').innerText = quantity;
+            document.getElementById('summaryCustomerName').innerText = customerName;
+            document.getElementById('summaryEmail').innerText = email;
+            document.getElementById('summaryPhone').innerText = phone;
+
+            document.getElementById('orderForm').style.display = 'none';
+            document.getElementById('orderSummary').style.display = 'block';
+        }
+
+        function printOrderSummary() {
+            var printContents = document.getElementById('orderSummary').innerHTML;
+            var originalContents = document.body.innerHTML;
+            document.body.innerHTML = printContents;
+            window.print();
+            document.body.innerHTML = originalContents;
+        }
+    </script>
 
       <input type="submit" value="submit" class="btn" name="send">
 
